@@ -498,8 +498,8 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-950 to-black" />
-        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=1080&width=1920')] bg-cover bg-center opacity-10" />
-
+        {/*<div className="absolute inset-0 bg-[url('/images/perfil5.jpg?height=1080&width=1920')] bg-cover bg-center opacity-10" />*/}
+        <div className="absolute inset-0 bg-cover bg-center opacity-10" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-8 lg:gap-12 items-center py-8">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -564,7 +564,7 @@ export default function Portfolio() {
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-3xl opacity-30 animate-pulse" />
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-gradient-to-r from-blue-400 to-purple-400">
-                <Image src="/placeholder.svg?height=400&width=400" alt="Jeferson Alves" fill className="object-cover" />
+                <Image src="/images/perfil4.png?height=400&width=400" alt="Jeferson Alves" fill className="object-cover" />
               </div>
             </div>
           </motion.div>
@@ -676,19 +676,6 @@ export default function Portfolio() {
                 <div className="text-slate-400 text-sm sm:text-base">{stat.label}</div>
               </div>
             ))}
-          </motion.div>
-
-          {/* Discrete Photo */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            viewport={{ once: true }}
-            className="flex justify-center mt-12 sm:mt-16"
-          >
-            <div className="relative w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden border-2 border-slate-700 opacity-60">
-              <Image src="/placeholder.svg?height=128&width=128" alt="Jeferson Alves" fill className="object-cover" />
-            </div>
           </motion.div>
         </div>
       </section>
