@@ -564,7 +564,7 @@ export default function Portfolio() {
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-3xl opacity-30 animate-pulse" />
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-gradient-to-r from-blue-400 to-purple-400">
-                <Image src="/images/perfil4.png?height=400&width=400" alt="Jeferson Alves" fill className="object-cover" />
+                <Image src="/images/perfil4.PNG?height=400&width=400" alt="Jeferson Alves" fill className="object-cover" />
               </div>
             </div>
           </motion.div>
