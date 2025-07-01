@@ -125,7 +125,7 @@ const translations = {
           description:
             "A revolução inteligente na venda de ingressos: gestão completa, layout personalizado e check-in eficiente em uma única plataforma.",
           tags: ["Express.js", "Bootstrap", "Supabase"],
-          url: "https://ingressosnaju.com.br/"
+          url: "https://www.ingressosnaju.com.br/"
         },
         {
           image: "vault.png",
@@ -143,7 +143,7 @@ const translations = {
           description:
             "Uma plataforma que oferece robôs de investimento para operar no mercado cripto, ajustáveis ao perfil de risco do usuário.",
           tags: ["Python", "RAG Model", "API", "Node.js"],
-          url: "https://bot-cripto-ao4p.onrender.com"
+          url: "https://bot-cripto-437c.onrender.com"
         },
       ],
     },
@@ -309,7 +309,7 @@ const translations = {
           description:
             "The smart revolution in ticket sales: complete management, custom layout, and efficient check-in all in one platform.",
           tags: ["Express.js", "Bootstrap", "Supabase"],
-          url: "https://ingressosnaju.com.br/"
+          url: "https://www.ingressosnaju.com.br/"
         },
         {
           image: "vault.png",
@@ -327,7 +327,7 @@ const translations = {
           description:
             "A platform that provides investment bots to operate in the crypto market, tailored to the user's risk profile.",
           tags: ["Python", "RAG Model", "API", "Node.js"],
-          url: "https://bot-cripto-ao4p.onrender.com"
+          url: "https://bot-cripto-437c.onrender.com"
         }
       ]
     },
