@@ -6,8 +6,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Jeferson Alves - Engenheiro & Coach de Prosperidade",
-  description: "Portfólio pessoal de Jeferson Alves - Engenheiro de Computação, Empreendedor e Coach de Prosperidade",
+  title: "Jeferson Alves - Portfólio",
+  description: "Empreendedor, Investidor, Engenheiro",
     generator: 'v0.dev'
 }
 
